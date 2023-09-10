@@ -1,0 +1,264 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121617;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+.golden-text {
+  font-size: 24px; 
+   text-shadow: 0 0 10px #00ff00ff;
+}
+::selection {
+  background-color: #00FF00; 
+  color: #fff; 
+  border-bottom: 2px solid #00FF00;
+}
+/*.......................*/
+
+nav{
+  background-color: #121617;
+  position: static;
+  z-index: 1000;
+}
+.navHover{
+  color: #fff;
+  margin-left: 2rem;
+  padding-bottom: 2px;
+  padding-bottom: 5px;
+  border: 2px solid #121617;
+  border-radius: 5px;
+
+}
+.navHover:hover{
+  color: #00FF00; 
+  border-bottom: 2px solid #00FF00;
+  transition: .3s ease-in-out;
+}
+.active1{
+  
+  border-bottom: 2px solid #00FF00;
+}
+.headertitle{
+  color: #303030;
+  font-weight: 700;
+}
+
+.headersubtitle{
+  color: #a09e9e;
+  font-weight: 400;
+}
+/*------------------------------*/
+
+
+.mainImage{
+  background-image: url('./../public/images/mainheading.jpg');
+  width: 100%;
+  height: 93vh;
+  object-fit: cover;
+  position: relative;
+}
+.mainHeading{
+position: absolute;
+top: 15%;
+left: 10%;
+}
+.fname{
+  position: relative;
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 300;
+  bottom: -70px;
+  font-weight: 500;
+} 
+.lname{
+  font-size: 7rem;
+  font-weight: 800;
+}
+.subHeading{
+  word-spacing: 5px;
+  letter-spacing: 6.5px;
+}
+.headingButton{
+  border-radius: 5px;
+ color: #fff;
+  font-weight: 600;
+  background: none;
+  border: 2px solid #fff;
+  padding: 4px 30px 4px 30px;
+}
+.headingButton:hover{
+  
+  border: 2px solid #00FF00;
+  color: #fff;
+  font-weight: 600;
+  transition: .9s ease-in-out;
+  box-shadow: 0 0 10px #00ff00ff;
+}
+.links{
+  padding-top: 30px;
+  font-size: 1rem;
+
+}
+.links i{
+  cursor: pointer;
+  padding-left: 1rem;
+  margin: .5rem;
+  font-size: 1.5rem;
+
+}
+
+/* about page css ////////////////////////////////////////////////////// */
+.aboutColor{
+  min-height: 100vh;
+}
+
+
+.aboutTitle{
+  padding: 1rem;
+  font-size: 2rem;
+  letter-spacing: .5rem;
+  font-weight: 500; 
+  border-bottom: 2px solid #212121;
+}
+.aboutContact{
+  padding-top: .5rem;
+  font-size: 14px;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: .7;
+}
+.aboutContact i{
+  padding-left: 1rem;
+  padding-right: 7px;
+}
+
+.aboutParagraph{
+ padding-left: 20px;
+  font-size: 14px;
+  opacity: .4;
+}
+.aboutSkills{
+  margin-top:2rem ;
+  border-bottom: .2px solid #212121
+}
+.aboutSkills i{
+  padding-top: 1rem;
+  font-size: 2.5rem;
+  padding-left: 1rem;;
+}
+.aboutImage{
+  margin-top: 5rem;
+  background-image: url('./../public/images/aboutImg.jpg');
+  width: 80%;
+  height: 290px;
+  border-radius: 5px;
+  margin-left: 2rem;
+  object-fit: fill;
+  background-repeat: no-repeat;
+}
+.iconsSize i{
+  font-size: 2rem;
+}
+
+
+/*////////////  services    //////////////////////////////////////////////*/
+
+.projectPage{
+  background-color: #121617;
+  padding-top: 3%;
+  min-height: 93vh;
+}
+.portfilio{
+  padding-top: 3rem;
+  letter-spacing: 1rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+.cardsCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardData{
+  font-size: 14px;
+  opacity: .4;
+}
+/*..........services.................*/
+
+
+
+
+
+
+
+
+
+
+
+.custom-card {
+  cursor: pointer;
+  margin-top: 2rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  padding-bottom: 1.5rem;
+}
+.custom-card:hover {
+  transition: .5s;
+    box-shadow: 0 0 10px #fff; 
+  }
+
+.custom-card.loaded {
+  opacity: 1;
+}
+
+.icons{
+  padding-top: 1rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.cardData{
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  opacity: .3;
+  color: #fff;
+}
+/*------------- protifio------------....*/
+.portfilioCard{
+margin-top: 2rem;
+background-color: #121617;
+border: 2px solid #212121;
+color: #fff;
+}
+.portfilioCard:hover{
+  
+    transition: .5s;
+      box-shadow: 0 0 10px #fff; 
+    }
+.titlePort{
+  padding-top: 1rem;
+}
+.descriptionPort{
+  padding-top: 1rem;
+opacity: .3;
+padding-bottom: 1rem;
+}
+.protfilioLink{
+text-decoration: none;
+color: #fff;
+}
