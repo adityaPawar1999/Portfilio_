@@ -77,14 +77,14 @@ left: 10%;
 }
 .fname{
   position: relative;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
   font-weight: 300;
   bottom: -70px;
   font-weight: 500;
 } 
 .lname{
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 800;
 }
 .subHeading{
