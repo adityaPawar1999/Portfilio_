@@ -6,7 +6,7 @@ const Card = (props) => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoaded(true);
-    }, 700); 
+    }, 600); 
   }, []);
 
   return (
