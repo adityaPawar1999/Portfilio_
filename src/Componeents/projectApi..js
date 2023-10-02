@@ -7,9 +7,9 @@ const projectApi = [
     },
     {
       id: 2,
-      title:"Random Color Generator",
-      description:"Discover endless design possibilities with our Random Color Generator web app. Effortlessly generate unexpected color palettes to enhance your creativity. Elevate your designs ",
-      link:"https://github.com/adityaPawar1999/Random-Color-Generator",
+      title:"Random Password Generator",
+      description:"Random Password Generator is a JavaScript project that can generate strong and unique passwords automatically. For this I have used JavaScript Math.random and Math.floor method. ",
+      link:"https://github.com/adityaPawar1999/Random-Password-Generator-App",
     },
     {
       id: 3,
