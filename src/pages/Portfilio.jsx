@@ -17,7 +17,6 @@ const Portfilio = () => {
           {row.map((val) => (
             <div className="col-md-4" key={val.id}>
               <CardProject
-                imgSrc={val.imgSrc}
                 title={val.title}
                 description={val.description}
                 link={val.link}
