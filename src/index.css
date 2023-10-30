@@ -16,7 +16,6 @@ body {
 
 
 
-
 .golden-text {
   font-size: 24px; 
    text-shadow: 0 0 10px #00ff00ff;
@@ -47,8 +46,7 @@ nav{
   border-bottom: 2px solid #00FF00;
   transition: .3s ease-in-out;
 }
-.active1{
-  
+.active{
   border-bottom: 2px solid #00FF00;
 }
 .headertitle{
