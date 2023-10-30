@@ -22,6 +22,12 @@ const projectApi = [
       title:"Random Color Generator",
       description:"Discover endless design possibilities with our Random Color Generator web app. Effortlessly generate unexpected color palettes to enhance your creativity. Elevate your designs ",
       link:"https://github.com/adityaPawar1999/Random-Color-Generator",
+    },
+    {
+      id: 4,
+      title:"Restful API",
+      description:"The Template API documentation facilitates seamless management of field templates through clear authentication , CRUD operations,  enhancing developers' API interaction experience.",
+    link:"https://github.com/adityaPawar1999/RestFulApi",
     }
     ]
     export default projectApi;
