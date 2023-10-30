@@ -20,7 +20,7 @@ const Navigation = () => {
             <li className="nav-item">
               <NavLink
                 to="/home"
-                className="nav-link navHover text-white active1"
+                className="nav-link navHover text-white "
                 activeClassName="active1"
               >
                 Home
