@@ -4,15 +4,17 @@ const Navigation = () => {
   return (
     <nav className="navigationColor navbar sticky-top navbar-expand-lg">
       <div className="container">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+<button
+  className="navbar-toggler"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#navbarNavDropdown"
+  aria-controls="navbarNavDropdown"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+  style={{ backgroundColor: 'white' }}
+>
+
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
