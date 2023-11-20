@@ -24,10 +24,16 @@ const projectApi = [
       link:"https://github.com/adityaPawar1999/Random-Color-Generator",
     },
     {
-      id: 4,
+      id: 5,
       title:"Restful API",
       description:"The Template API documentation facilitates seamless management of field templates through clear authentication , CRUD operations,  enhancing developers' API interaction experience.",
     link:"https://github.com/adityaPawar1999/RestFulApi",
+    },
+    {
+      id: 6,
+      title:"bloghub WebSite UI using React and Styled-Component",
+      description:Explore bloghub , a React project where I've crafted a vibrant blog website using styled components. Enjoy a visually stunning and user-friendly platform for sharing and discovering captivating stories.",
+    link:"https://peaceful-peony-86715b.netlify.app/",
     }
     ]
     export default projectApi;
