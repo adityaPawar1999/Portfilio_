@@ -33,7 +33,7 @@ const projectApi = [
       id: 6,
       title:"bloghub WebSite UI using React and Styled-Component",
       description:Explore bloghub , a React project where I've crafted a vibrant blog website using styled components. Enjoy a visually stunning and user-friendly platform for sharing and discovering captivating stories.",
-    link:"https://peaceful-peony-86715b.netlify.app/",
+    link:"https://github.com/adityaPawar1999/bloghub",
     }
     ]
     export default projectApi;
